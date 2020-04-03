@@ -22,6 +22,10 @@ Now that we've got our data ready, download the [Extension Manifest file](/Trean
 
 Select the worksheet that contains your data, and you should see the other dropdowns update to show the fields within that sheet.  Select the fields for NodeId, NodeLabel, ParentId, and color (otherwise each block will default to a white background).  Any leftover fields in your sheet will automatically populate into the block.
 
+One thing to note about the color field, this is a calculated field which can be any valid CSS fill:
+ * default colors: 'red', 'blue', 'green', etc
+ * hex colors: #F5F5F5
+
 ### Configure the action tab
 ![Config Action Screenshot](/screenshots/config-2.png)
 
